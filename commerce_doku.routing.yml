@@ -1,0 +1,32 @@
+commerce_payment_doku.identify:
+  path: '/dc/payment_doku/identify'
+  defaults:
+    _controller: '\Drupal\commerce_doku\Controller\DokuNotification::commerce_doku_identify'
+  requirements:
+    _access: 'TRUE'
+
+commerce_payment_doku.notify:
+  path: '/dc/payment_doku/notify'
+  defaults:
+    _controller: '\Drupal\commerce_doku\Controller\DokuNotification::commerce_doku_notify'
+  requirements:
+    _access: 'TRUE'
+
+commerce_payment_doku.redirect:
+  path: '/dc/payment_doku/redirect'
+  defaults:
+    _controller: '\Drupal\commerce_doku\Controller\DokuNotification::commerce_doku_redirect'
+  requirements:
+    _access: 'TRUE'
+
+commerce_payment_doku.review:
+  path: '/dc/payment_doku/review'
+  defaults:
+    _controller: '\Drupal\commerce_doku\Controller\DokuNotification::commerce_doku_review'
+  requirements:
+    _access: 'TRUE'
+    
+  # options:
+  #   parameters:
+  #     commerce_payment_gateway:
+  #       type: entity:commerce_payment_gateway

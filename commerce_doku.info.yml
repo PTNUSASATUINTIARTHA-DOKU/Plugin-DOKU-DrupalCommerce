@@ -1,0 +1,14 @@
+name: Commerce Doku
+type: module
+description: 'Provides Commerce integration for Doku Online Payments.'
+package: Commerce (contrib)
+dependencies:
+  - commerce:commerce_payment
+# Information
+files:
+  - commerce_myshortcart.module
+  - includes/commerce_myshortcart.inc
+version: '8.x-2.00'
+core: '8.x'
+project: 'commerce_doku'
+datestamp: 1543190411

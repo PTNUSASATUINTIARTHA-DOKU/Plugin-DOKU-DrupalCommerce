@@ -1,0 +1,92 @@
+commerce_payment.commerce_payment_gateway.plugin.doku:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    mallid:
+      type: string
+      label: 'Mall ID'
+    chainid:
+      type: string
+      label: 'Chain ID'
+    sharedkey:
+      type: string
+      label: 'Shared key'
+
+commerce_payment.commerce_payment_gateway.plugin.doku_channel:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    mallid:
+      type: string
+      label: 'Mall ID'
+    chainid:
+      type: string
+      label: 'Chain ID'
+    sharedkey:
+      type: string
+      label: 'Shared key'
+    channel:
+      type: string
+      label: 'Payment Channel'
+
+commerce_payment.commerce_payment_gateway.plugin.doku_creditcard:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    mallid:
+      type: string
+      label: 'Mall ID'
+    chainid:
+      type: string
+      label: 'Chain ID'
+    sharedkey:
+      type: string
+      label: 'Shared key'
+    service_edu:
+      type: boolean
+      label: 'Service edu'
+    tokenization:
+      type: boolean
+      label: 'tokenization'
+
+commerce_payment.commerce_payment_gateway.plugin.doku_creditcard_installment_offus:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    mallid:
+      type: string
+      label: 'Mall ID'
+    chainid:
+      type: string
+      label: 'Chain ID'
+    sharedkey:
+      type: string
+      label: 'Shared key'
+    acquirer:
+      type: string
+      label: 'Acquirer'
+    promoid:
+      type: string
+      label: 'Promo ID'
+    tenor:
+      type: string
+      label: 'Tenor'
+
+commerce_payment.commerce_payment_gateway.plugin.doku_creditcard_installment_onus:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    mallid:
+      type: string
+      label: 'Mall ID'
+    chainid:
+      type: string
+      label: 'Chain ID'
+    sharedkey:
+      type: string
+      label: 'Shared key'
+    acquirer:
+      type: string
+      label: 'Acquirer'
+    promoid:
+      type: string
+      label: 'Promo ID'
+    tenor:
+      type: string
+      label: 'Tenor'
+
